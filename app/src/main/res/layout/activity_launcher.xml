@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.hp.parents.launcher"
+    android:orientation="vertical"
+    android:background="#3d70b2">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="400sp"
+        android:layout_height="200sp"
+        android:id="@+id/imv1"
+        android:src="@drawable/pt6"
+        android:layout_gravity="center"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Where's My Ward?"
+          android:textSize="24sp"
+          android:textColor="#dfe3e6"
+          android:textAlignment="center"/>
+   </LinearLayout>
+
+   <ProgressBar
+       style="?android:attr/progressBarStyle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+</LinearLayout>

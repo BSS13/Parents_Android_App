@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.parents.LiveTrackingDriver"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:background="#3d70b2"
+        android:layout_width="match_parent"
+        app:subtitleTextColor="#dfe3e6"
+        app:titleTextColor="#dfe3e6"
+        android:animateLayoutChanges="true"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:id="@+id/toolbar"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo2" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvedis"
+                android:textSize="21sp"
+                android:textColor="#dfe3e6"
+                android:text="Est Distance"/>
+
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1"
+                android:textSize="21sp"
+                android:textColor="#dfe3e6"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tveta"
+                android:textSize="21sp"
+                android:textColor="#dfe3e6"
+                android:text="ETA "/>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:textSize="21sp"
+                android:textColor="#dfe3e6"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.hp.parents.MapsActivity" />
+
+
+</LinearLayout>

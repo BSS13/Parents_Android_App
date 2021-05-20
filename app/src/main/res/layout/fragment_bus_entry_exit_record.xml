@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="6dp"
+    android:layout_marginBottom="4dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#dfe3e6"
+        android:backgroundTint="#FFFFFF">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv1111"
+                android:text="Enter Date"
+                android:textColor="#3d70b2"
+                android:layout_margin="6sp"
+                android:textSize="19sp"
+                />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Eg 2018-04 for April,2018"
+                android:inputType="date"
+                android:textSize="19sp"/>
+
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt1111"
+            android:text="Fetch"
+            android:background="#3d70b2"
+            android:textColor="#dfe3e6"
+            android:onClick="fetch"
+            android:layout_margin="6sp"/>
+
+         <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             android:id="@+id/lv1111"
+             android:background="#FFFFFF"
+             >
+
+            </ListView>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380sp"
+    android:layout_height="200sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="19sp"
+        android:textColor="#3d70b2"
+        android:text="Select Phone Number to Receive Alert Messages"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Father's Phone"
+            android:textColor="#3d70b2"
+            android:id="@+id/rbfather"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mother's Phone"
+            android:textColor="#3d70b2"
+            android:id="@+id/rbmother"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:text="OK"
+        android:textColor="#dfe3e6"
+        android:background="#3d70b2"
+        android:layout_gravity="center"
+        android:layout_margin="6sp"/>
+
+</LinearLayout>

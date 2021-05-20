@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "584495956214",
+    "firebase_url": "https://school-bus-tracking-parents-6.firebaseio.com",
+    "project_id": "school-bus-tracking-parents-6",
+    "storage_bucket": "school-bus-tracking-parents-6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584495956214:android:62aecb43208b97a0",
+        "android_client_info": {
+          "package_name": "com.example.hp.parents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584495956214-0pftqs7ms84o6i9jgsnsl19u8152pcpt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.parents",
+            "certificate_hash": "c0d9dbb22e76c7835b7a182a9d515da1e46c6c6f"
+          }
+        },
+        {
+          "client_id": "584495956214-92gnokg0n2k13004c036psfjf10l8v2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGgxkfHsTqzqzoNX-1nT1jo1nky4IiUmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584495956214-92gnokg0n2k13004c036psfjf10l8v2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

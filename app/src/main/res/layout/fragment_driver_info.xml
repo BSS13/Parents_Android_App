@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+<android.support.v7.widget.CardView
+    android:id="@+id/ly_root"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="6dp"
+    android:layout_marginBottom="4dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dfe3e6"
+    android:backgroundTint="#FFFFFF">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imv11"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo2"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#3d70b2"
+        android:layout_margin="6sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="Driver Name"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv22"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:text="Contact"
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+
+            />
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imvl"
+            android:src="@drawable/ic_perm_phone_msg_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv44"
+            android:text=""
+            android:textColor="#ff45ff"
+            android:layout_margin="6sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:text="Bus Number"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv66"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7"
+            android:text="Bus Type"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv88"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:text="Capacity"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1010"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv11"
+            android:text="School In Time"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1212"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv13"
+            android:text="School Out Time"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1414"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv17"
+            android:text="Owner Phone Number"
+            android:textColor="#3d70b2"
+            android:layout_margin="6sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1818"
+            android:text=""
+            android:textColor="#058bef"
+            android:layout_margin="6sp"
+            />
+       </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:text="Track Live Location"
+        android:background="#3d70b2"
+        android:textColor="#dfe3e6"
+        android:layout_margin="4sp"/>
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

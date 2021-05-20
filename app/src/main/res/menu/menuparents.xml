@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/changepass"
+        android:orderInCategory="100"
+        android:title="Change Password"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/livetrack"
+        android:orderInCategory="100"
+        android:title="Live Track"
+        android:icon="@drawable/ic_track_changes_black_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/trackhistory"
+        android:orderInCategory="100"
+        android:title="Track History"
+        android:icon="@drawable/ic_track_changes_black_24dp"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+        app:showAsAction="never"
+        />
+
+</menu>
